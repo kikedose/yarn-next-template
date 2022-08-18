@@ -5,10 +5,11 @@ Template for NextJs
 - React Query
 
 ```
-yarn install
+$ yarn install
 
 If using yarn 3:
 $ corepack enable
 $ yarn set version stable
+$ yarn install
 $ yarn dlx @yarnpkg/sdks vscode || yarn dlx @yarnpkg/sdks vim
 ```
