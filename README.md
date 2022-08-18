@@ -1,8 +1,14 @@
-# yarn3-next-template
-Template for NextJs v12.1.6 using Yarn v3.2.1 && Node v17.5.0
+# yarn-next-template
+Template for NextJs 
+- MUI
+- axios
+- React Query
 
 ```
 yarn install
 
-yarn dlx @yarnpkg/sdks vscode || yarn dlx @yarnpkg/sdks vim
+If using yarn 3:
+$ corepack enable
+$ yarn set version stable
+$ yarn dlx @yarnpkg/sdks vscode || yarn dlx @yarnpkg/sdks vim
 ```
